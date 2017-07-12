@@ -36,11 +36,11 @@ LoadPlugin python
 
 LoadPlugin write_graphite
 <Plugin write_graphite>
-  <Node "watcher_net">
-    Host "10.64.0.12"
+  <Node "graphite">
+    Host "10.xx.xx.xx"
     Port "2003"
     Protocol "tcp"
-    Prefix "h."
+    Prefix "xx."
     EscapeCharacter "."
   </Node>
 </Plugin>
