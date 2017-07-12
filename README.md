@@ -1,2 +1,2 @@
 # wlc_snmp_collectd_parser
-get wlc monitor metrics via snmp and invoke by collectd
+get cisco wlc metrics via snmp and invoke by collectd
