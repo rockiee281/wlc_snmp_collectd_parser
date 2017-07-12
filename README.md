@@ -2,7 +2,7 @@
 get cisco wlc metrics via snmp and invoke by collectd
 
 
-collect.conf demo:
+collectd.conf demo:
 ```bash
 FQDNLookup   false
 Interval 30
@@ -33,15 +33,4 @@ LoadPlugin python
 
 </Plugin>
 
-LoadPlugin write_graphite
-<Plugin write_graphite>
-  <Node "watcher_net">
-    Host "10.xx.xx.xx"
-    Port "2003"
-    Protocol "tcp"
-    Prefix "xx."
-    EscapeCharacter "."
-  </Node>
-</Plugin>
-
-```
+LoadPlugin w
